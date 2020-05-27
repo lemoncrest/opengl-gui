@@ -1,0 +1,20 @@
+[requires]
+imgui/1.76
+mesa/20.0.1@bincrafters/stable
+sdl2/2.0.9@bincrafters/stable
+glfw/3.3.1@bincrafters/stable
+glew/2.1.0@bincrafters/stable
+
+[generators]
+cmake
+
+[imports]
+./res/bindings, imgui_impl_glfw.cpp -> .
+./res/bindings, imgui_impl_glfw.h -> .
+./res/bindings, imgui_impl_opengl2.cpp -> .
+./res/bindings, imgui_impl_opengl2.h -> .
+
+#./res/bindings, imgui_impl_sdl.cpp -> .
+#./res/bindings, imgui_impl_sdl.h -> .
+#./res/bindings, imgui_impl_opengl3.cpp -> .
+#./res/bindings, imgui_impl_opengl3.h -> .
